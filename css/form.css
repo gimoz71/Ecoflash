@@ -1,0 +1,249 @@
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+form.richiesta_info {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+form.richiesta_info fieldset {
+	margin: 0 4px 10px 0;
+	padding: 0;
+	border: none;
+	position: relative;
+}
+form.richiesta_info legend {
+	font-weight: bold;
+	font-size: 20px;
+	background: url(../images/bg_legend.png) no-repeat 0 4px;
+	height: 70px;
+	padding: 0;
+	margin: 0;
+	font-family: 'AllerBold';
+	color: #5F7782;
+}
+
+form.richiesta_info legend span {
+	margin: 0 35px 0 9px;
+	padding: 0;
+	color: #93BD48;
+	font-size: 35px;
+}
+form.richiesta_info label {
+	display: inline-block;
+}
+form.richiesta_info fieldset ol li {
+	list-style: none;
+	padding: 10px;
+	margin: 0;
+	position: relative;
+}
+form.richiesta_info fieldset ol.service_check {
+	margin: 0 0 0 40px;
+	display: block;
+	padding: 30px 0;
+}
+
+form.richiesta_info fieldset ol.contact {
+	margin: 0 0 0 30px;
+	display: block;
+	padding: 30px 0;
+}
+form.richiesta_info fieldset ol.service_check li label {
+	font-size: 12px;
+	border-bottom: dashed 1px #E1D70F;
+	font-weight: bold;
+	width: 510px;
+	color: #2B4C6C;
+	margin-top: 3px;
+}
+form.richiesta_info fieldset ol.service_check li textarea {
+	border-bottom: dashed 1px #E1D70F;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	background: url(../images/bg_input.png) 0 0;
+	width: 495px;
+	padding: 10px;
+	margin: 10px 0 0 20px;
+	font-size: 14px;
+	color: #2B4C6C;
+}
+
+form.richiesta_info fieldset ol.contact li label {
+	font-size: 16px;
+	font-weight: bold;
+	color: #5F7782;
+	margin-right: 20px;
+	text-align: right;
+	width: 160px;
+}
+form.richiesta_info fieldset ol.contact li input {
+	border-bottom: dashed 1px #E1D70F;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	background: url(../images/bg_input.png) 0 0;
+	width: 340px;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #2B4C6C;
+}
+
+
+form.richiesta_info em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+form.richiesta_info .send {
+	display: block;
+	margin-left: 120px;
+}
+form.richiesta_info input.invio {
+	background: transparent url(../images/button_invia.png) no-repeat 0 0;
+	width: 192px;
+	height: 37px;
+	border: none;
+	text-indent: -1000em;
+	cursor: pointer;
+}
+
+form.richiesta_info input.invio:hover {
+	background: transparent url(../images/button_invia.png) no-repeat 0 -37px;
+}
+
+form.richiesta_info input.invio_big {
+	background: transparent url(../images/button_invia_big.png) no-repeat 0 0;
+	width: 402px;
+	height: 82px;
+	border: none;
+	text-indent: -1000em;
+	cursor: pointer;
+	overflow: hidden;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+}
+
+form.richiesta_info input.invio_big:hover {
+	background: transparent url(../images/button_invia_big.png) no-repeat 0 -82px;
+}
+
+form.richiesta_info input.invio_big:active {
+	background: transparent url(../images/button_invia_big.png) no-repeat 0 -164px;
+}
+
+form.richiesta_info input.invio_big.disabled{
+	background: transparent url(../images/button_invia_big.png) no-repeat 0px -246px;
+	cursor: default;	
+}
+
+.checkbox, .radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(../images/checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+.radio {
+	background: url(../images/radio.png) no-repeat;
+}
+.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 21px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(../images/select.png) no-repeat;
+	overflow: hidden;
+}
+
+/* CENTRO MESSAGGI */
+
+.richiesta_info li em {
+	position: absolute;
+	left: 177px;
+	top -5px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #F90;
+}
+
+.richiesta_info #messaggi {
+	width: 350px;
+	font-size: 12px;
+	margin-left: 100px;
+	height: 40px;
+}
+
+.richiesta_info #messaggi span.state2 {
+	background: url(../images/form/asterisk_big.png) no-repeat 0px center;
+	padding: 7px 0 7px 40px;
+	font-size: 12px;
+	color: #999;
+	display: block;
+}
+.richiesta_info #messaggi span.statewait {
+	padding: 7px 0 7px 50px;
+	font-size: 12px;
+	color: #999;
+	display: block;
+}
+
+.richiesta_info #messaggi span.state3 {
+	background: url(../images/form/check_big.png) no-repeat 0 0;
+	padding: 10px 0 10px 40px;
+	font-size: 12px;
+	color: #093;
+	display: block;
+}
+
+.richiesta_info #messaggi span.state4 {
+	background: url(../images/form/error_arrow_big.png) no-repeat 0 0;
+	padding: 10px 0 10px 40px;
+	font-size: 12px;
+	color: #c00;
+	display: block;
+}
+
+/*MESSAGGI STATO CAMPI */
+
+.richiesta_info li span.error {
+	position: absolute;
+	top: 13px;
+	right: 20px;
+	font-size: 10px;
+	color: #c00; 
+	text-align: left;
+	text-indent: -360px;
+	padding: 25px 0 0 0;
+	width: 25px;
+	height: 13px;
+	font-weight: bold;	
+	background: url(../images/form/alert_box_error.png) no-repeat left top;
+	_background: url(../images/form/alert_box_error.gif) no-repeat left top;
+	z-index: 100;
+}
+
+.richiesta_info li span.valid {
+	position: absolute;
+	top: 13px;
+	right: 20px;
+	font-size: 10px;
+	color: #0c0; 
+	text-align: left;
+	text-indent: -360px;
+	padding: 25px 0 0 0;
+	width: 25px;
+	height: 13px;
+	font-weight: bold;	
+	background: url(../images/form/alert_box_ok.png) no-repeat left top;
+	_background: url(../images/form/alert_box_ok.gif) no-repeat left top;
+	z-index: 100;
+}
